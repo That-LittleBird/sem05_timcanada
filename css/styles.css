@@ -1,14 +1,14 @@
 /*----------------------------------------------------------------------------
     Reset
 ----------------------------------------------------------------------------*/
-html {
+html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
 *,
 *:before,
-*:after {
+*:after{
     box-sizing: inherit;
 }
 
@@ -17,7 +17,7 @@ html {
 ------------------------------------------------------------------------------*/
 
 /* ===== Numéro 1 ===== */
-body {
+body{
     font: normal 1.8rem/1.6 "PT Sans", serif;
 }
 
@@ -27,7 +27,7 @@ body {
 ------------------------------------------------------------------------------*/
 
 /* ===== Numéro 2 ===== */
-.wrapper {
+.wrapper{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -42,19 +42,19 @@ body {
 
 /* ===== Numéro 3f ===== */
 
-header {
+header{
     padding: 20px 0 20px;
 }
 
 /* ===== Numéro 3a ===== */
-header .wrapper {
+header .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 /* ===== Numéro 3b ===== */
-.logo {
+.logo{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -65,7 +65,7 @@ header .wrapper {
 
 /* ===== Numéro 3c ===== */
 
-.menu ul {
+.menu ul{
     margin: 0;
     padding: 0;
 
@@ -76,12 +76,12 @@ header .wrapper {
 
 /* ===== Numéro 3d ===== */
 
-.menu a {
+.menu a{
     font: uppercase bold 1.4rem 'PT Sans', sans-serif;
     color: #000;
     border: 2px solid #fff;
 
-    padding: 5px 10px 5pc 10px;
+    padding: 5px 10px 5px 10px;
 
     /* Pas Inclue */
     text-decoration: none;
@@ -101,7 +101,7 @@ header .wrapper {
 }
 
 /* ===== Numéro 4b ===== */
-.hero .wrapper {
+.hero .wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,67 +109,56 @@ header .wrapper {
 }
 
 /* ===== Numéro 4c ===== */
-.hero .contenu {
+.hero .contenu{
     max-width: 50%;
     color: #fff;
 }
 
 /* ===== Numéro 4d ===== */
 
-.hero h1 {
+.hero h1{
     font: 100 10rem/1 Nunito, sans-serif;
     color: #F2545B;
     margin: 0 0 20px;
 
 }
 
-/* ===== Numéro 5a ===== */
-/*
-.athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
+/* ===== Numéro 5c ===== */
+
+.athletes {
+    padding: 100px 0 100px;
 }
-*/
+
+/* ===== Numéro 5a ===== */
+
+.athletes h2{
+    font: bold 5rem Nunito, sans-serif;
+    letter-spacing: 0.05em;
+    margin: 0 0 50px;
+}
 
 /* ===== Numéro 5b ===== */
-/*
-.athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
-}
-*/
 
-/* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+.athletes p{
+    margin: 0 0 50px;
 }
-*/
-
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
-
+    max-width: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
-
+    
 }
 
 
